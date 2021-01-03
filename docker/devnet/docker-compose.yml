@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  core:
+    image: dashpay/dashd:0.16 #look for current file on https://hub.docker.com/r/dashpay/dashd/tags?page=1&ordering=last_updated
+    restart: unless-stopped
+    ports:
+      - 29998:29998 #port
+      - 127.0.0.1:19998:19998 #rpcport (only local)
+    volumes:
+      - ./files/dash.conf:/dash/.dashcore/dash.conf
+      - core_data:/dash
+     - dashd
+     - -port=29998 #port
+
+volumes: 
+  core_data:
