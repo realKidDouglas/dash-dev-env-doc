@@ -48,13 +48,15 @@ On **first** start you need to give parameters `usehd=1` and your `mnemonic`as f
 
 	/Applications/Dash-Qt.app/Contents/MacOS/Dash-Qt -conf=/Users/kiddouglas/Library/Application\ Support/DashCore/dash-evonet-8.conf -port=20001 --usehd=1 --mnemonic="<super-secret-mnemonic>"
 
+If you don't give `mnemonic` a new HD-wallet will be created. 
+
 In the Dash Core Application you will see a small icon for `HD`.
 
 ![HD-ico](./images/hdico.png)
 
 From now your wallet is installed and you can run your evonet-wallet easily without the wallet info as above with the alias `dashevonet-8`.
 
-Check HD-wallet info in cli with:
+Check HD-wallet info containing mnemonic in cli with:
 
 	dumphdinfo
 
