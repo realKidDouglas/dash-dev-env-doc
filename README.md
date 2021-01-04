@@ -5,9 +5,9 @@ These are my experience dealing with Dash nodes making it easier for me to manag
 
 
 ## Keeping overview
-Especially for macOS this is not always trivial.
+Especially for macOS this is not always trivial...
 
-- At first of course we start with a Dash desktop wallet on `mainnet` from https://www.dash.org/de/downloads/.
+- At first - of course - we start with a Dash desktop wallet on `mainnet` from https://www.dash.org/de/downloads/.
 
 - Next we try out configurations for `testnet`, own `devnets` and `evonet`.  
 	In [Dash Nets](net_configs.md) you'll find parameters	 needed for `conf`-file to change nets and build up your own `devnet`.

@@ -1,9 +1,11 @@
 # Dash nets
 
-To manage several `conf`-files check [Managing wallets](managing_wallets.md).
-
 Absolute path to config file for different OS you can find [here](https://dashcore.readme.io/docs/dash-core-wallet-arguments-and-commands).
 
+This is just a short overview. 
+For further info, check [links](#links) below.
+
+(To manage several `conf`-files on one OS check [Managing wallets](managing_wallets.md).)
 
 - `mainnet`: Leave `dash.conf` empty.
 
@@ -80,8 +82,7 @@ Absolute path to config file for different OS you can find [here](https://dashco
 	Remember to give [ports as arguments](args_n_commands.md) when running `dashd` resp. `dash-cli`.
 	
 	
-
-This is just a short overview. 
-Here some further links (with links):
+## Links
+Here're some further links (with links):
 - About testnet and devnets: https://docs.dash.org/en/stable/developers/testnet.html
 - Devnet setup info: https://blog.dash.org/dash-devnets-bc27ecbf0085 
