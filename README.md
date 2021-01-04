@@ -3,7 +3,7 @@
 These are my experience dealing with Dash nodes making it easier for me to manage.
 
 # Keeping overview
-- At first of course we start with a [Dash Desktop wallets](https://www.dash.org/de/downloads/) on `mainnet`.
+- At first of course we start with a Dash Desktop wallets on `mainnet` from https://www.dash.org/de/downloads/.
 
 - Next we try out configurations for `testnet`, own `devnets` and `evonet` in [Dash Nets](net_configs.md).
 	
