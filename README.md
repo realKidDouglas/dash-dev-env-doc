@@ -1,6 +1,6 @@
 # Build up your own Dash Development Environment
 
-Notes about connecting to Dash and setting up different nodes an keeping overview.  
+Notes about connecting to Dash, setting up different nodes and keeping overview.  
 These are my experience dealing with Dash nodes making it easier for me to manage.
 
 
