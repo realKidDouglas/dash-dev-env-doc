@@ -1,11 +1,34 @@
-# CLI Arguments and Commands
+# Useful CLI Arguments and Commands
 
 Here I show the few commands I needed most. 
 But check here for all: https://dashcore.readme.io/docs/dash-core-wallet-arguments-and-commands  
 (Esp. look for [`dashd`](https://dashcore.readme.io/docs/dash-core-wallet-arguments-and-commands-dashd) resp. [`dash-cli`](https://dashcore.readme.io/docs/dash-core-wallet-arguments-and-commands-dash-cli))
 
 
-## Useful CLI Arguments
+## CLI Commands
+
+Send Dash:
+
+	dash-cli sendtoaddress <address> <amount>
+
+Check if you are "connected" with `getblockchaininfo` and look for best block:
+
+	$ dash-cli -conf="/home/kiddouglas/dashcore/dash-devnet.conf" -rpcport=19998 getblockchaininfo | grep blocks
+
+Check (confirmed) balance of wallet:
+
+	getbalance
+	
+Balance is confirmed after app. 15 minutes.
+To find also unconfirmed try:
+
+	getunconfirmedbalance
+
+or
+
+	getwalletinfo
+
+## CLI Arguments
 
 If you use a different ports you have to specify it with **every** cli call :/  
 **No matter if it's already in `conf`-file.**
@@ -31,53 +54,6 @@ And use it as common:
 	$ ddash-cli getblockchaininfo | grep blocks
 
 
-## Useful CLI commands
-Send Dash:
-
-	dash-cli sendtoaddress <address> <amount>
-
-Check if you are "connected" with `getblockchaininfo` and look for best block:
-
-	$ dash-cli -conf="/home/kiddouglas/dashcore/dash-devnet.conf" -rpcport=19998 getblockchaininfo | grep blocks
-
-Check (confirmed) balance of wallet:
-
-	getbalance
-	
-Balance is confirmed after app. 15 minutes.
-To find also unconfirmed try:
-
-	getunconfirmedbalance
-
-or
-
-	getwalletinfo
-
-
-
-## Jump into your Dash-Docker
-Get first letters of container-id from `docker ps`. 
-Look for `dashpay/dashd` in column image resp. `_core_` in column names.  
-Jump into container with:
-	
-	docker exec -it <cotainer-id> /bin/bash
-
-From here you can run `dashd` and `dash-cli` (they are linked already).
-
-
-## Find your current IP
-
-If you have a DN, you can use `nslookup`, `host` or just `ping` to retrieve IP.
-
-If not you could use IPecho's API:
-
-	curl http://ipecho.net/plain
-	
-You can even use it in shell-scripts: 
-
-	externalip=$(curl http://ipecho.net/plain)
-	
-(Found in https://github.com/kxcd/Masternode-Zeus/blob/main/masternode_zeus.sh#L753)
 
 
 

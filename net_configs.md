@@ -25,7 +25,7 @@ Absolute path to config file for different OS you can find [here](https://dashco
 	Note that you need to give this port as argument for `dash-cli`.
 	On some OS you have to give `devnetname` as argument to `dashd` and `dash-cli` (next to `port`, `rpcport` and `conf`-file).
 
-		--devnet="kiddouglasdevnet" 
+		-devnet="kiddouglasdevnet" 
 
 	Since the RPC-port should only used by `dash-cli` locally this doesn't need to be same for every client in the devnet.
 	Further you should set a `user` and a `password` for RPC both (`dashd` and `dash-cli` use to communicate).
@@ -77,7 +77,7 @@ Absolute path to config file for different OS you can find [here](https://dashco
 - `evonet`: This is just a `devnet` itself. 
 	To join this net, just use the [Evonet-8 config file](core_configs/dash-evonet-8.conf).
 	
-	Remember to give different [ports as arguments](args_n_commands.md) when running `dashd` resp. `dash-cli`.
+	Remember to give [ports as arguments](args_n_commands.md) when running `dashd` resp. `dash-cli`.
 	
 	
 

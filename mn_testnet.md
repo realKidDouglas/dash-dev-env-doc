@@ -1,9 +1,38 @@
 
+
+
+## Jump into your Dash-Docker
+Get first letters of container-id from `docker ps`. 
+Look for `dashpay/dashd` in column image resp. `_core_` in column names.  
+Jump into container with:
+	
+	docker exec -it <cotainer-id> /bin/bash
+
+From here you can run `dashd` and `dash-cli` (they are linked already).
+
+
+## Find your current IP
+
+If you have a DN, you can use `nslookup`, `host` or just `ping` to retrieve IP.
+
+If not you could use IPecho's API:
+
+	curl http://ipecho.net/plain
+	
+You can even use it in shell-scripts: 
+
+	externalip=$(curl http://ipecho.net/plain)
+	
+(Found in https://github.com/kxcd/Masternode-Zeus/blob/main/masternode_zeus.sh#L753)
+
+
 Testnet-Blockexplorer: https://testnet-insight.dashevo.org/insight/
 
 faucets
 
-nur 2 Container
+
+
+
 
 Straight forward:
 # set ssh port
@@ -45,30 +74,26 @@ mn config:set externalIp 104.248.135.44
 
 
 
-KONTO MIT 1005 Dash (confirmed)
-besser mehr als 1000. Von dieser Adresse werden dann die exakt 1000 dann überwiesen ;)
-1005: yMdNmomQp3U4ZDdzE9oMH49xdbACk7itZg
-cVSH2papyer9Pz5R2iu82Yt4WHUbVD6WqJeg6gYuYhwQdmzR2XGQ
 
-nach register: warten….
+after register be patient...
 
-mn-bootstrap# mn register cVSH2papyer9Pz5R2iu82Yt4WHUbVD6WqJeg6gYuYhwQdmzR2XGQ
+mn-bootstrap# mn register <key>
 ❯ Register masternode
   ✔ Start Core
   ✔ Import funding private key
   ✔ Sync Core with network
   ✔ Check funding address balance
   ✔ Generate a masternode operator key
-    › Public key: 0a5c47983c44aa99ce5f04b32cfbdff42e7f92b1410558559dcbff3ca8aacc3c2fcaf05db6f021a9f335ba05b…
-      Private key: 6f324c08213e99c24dfe79f2671eaa10b6b47bfa275bcbae32c554ce2ac85528
+    › Public key: xxx
+      Private key: xxx
   ✔ Create a new collateral address
-    › Address: yXS3HjGfzjV39Sa2i8hWpAuZzk3qgEqXar
-      Private key: cVV7uzVJaagmqRAjMbhjaKXkjcvAh7jQEER3gPnK6hVKUEuCvZon
+    › Address: xxx
+      Private key: xxx
   ✔ Create a new owner addresses
-    › Address: ygdLnih3aMvggg4FdnqYrxdhPy37CVh6dz
-      Private key: cPFwYqDGULnGRFzgWd8gBPyghVzceDQgvyopTnz88mP98bU63QLk
+    › Address: xxx
+      Private key: xxx
   ✔ Send 1000 dash from funding address to collateral address
-    › Collateral transaction ID: 3efd4cf14ecfe820a7fc3efd3d7eed5a692f37b4eb8dc8d3f287f0773715b37b
+    › Collateral transaction ID: xxx
   ⠇ Wait for 15 confirmations
     › 0 confirmation
   ◼ Broadcast masternode registration transaction
