@@ -1,7 +1,7 @@
 # Build up your own Dash Development Environment
 
-Notes about connecting to Dash, setting up different nodes and keeping overview.  
-These are my experience dealing with Dash nodes making it easier for me to manage.
+Notes about connecting to Dash, setting up different nodes (and masternodes) and keeping overview.  
+These are my experience and strategies dealing with Dash nodes making it easier for me to manage.
 
 
 ## Keeping overview
@@ -22,7 +22,10 @@ Especially for macOS this is not always trivial...
 
 ## Coming steps: 
 
-- Run `devnet` node with Docker and setup your own `devnet` locally and/or with friends and colleagues worldwide.
+(Almost done; I'm on it at this moment ;) )
+
+- Run `devnet` node with Docker and setup your own Devnet locally and/or with friends and colleagues worldwide.
+	- Connecting to it is "trivial" whereas mentioned above ([Dash Nets](net_configs.md)).
 - Walkthrough: Run a `testnet`-masternode with *mn-bootstrap* and/or Docker.
-- Now "upgrade" to `evonet` (no longer needed since `evonet` is on `testnet` ;) )
+	- Now "upgrade" to `evonet` (no longer needed since `evonet` is on `testnet` ;) )
 
