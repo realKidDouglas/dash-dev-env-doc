@@ -5,7 +5,7 @@ You’ve installed [Docker](https://docs.docker.com/engine/install/ubuntu/) and 
 
 For sure `docker-compose` is not necessary to do this job, but it makes it easier to remember all parameters a Docker container needs to be run within a single `yml`-file.
 
-##Devnet Params
+## Devnet Params
 
 Commit with your team/colleagues/friends/yourself on a:
 - `devnet`-name,
