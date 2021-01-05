@@ -1,14 +1,6 @@
 
 
 
-## Jump into your Dash-Docker
-Get first letters of container-id from `docker ps`. 
-Look for `dashpay/dashd` in column image resp. `_core_` in column names.  
-Jump into container with:
-	
-	docker exec -it <cotainer-id> /bin/bash
-
-From here you can run `dashd` and `dash-cli` (they are linked already).
 
 
 ## Find your current IP

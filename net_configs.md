@@ -72,9 +72,9 @@ For further info, check [links](#links) below.
 	If you change your devnet-setup or are in trouble syncing with other nodes you can start over again.
 	Herefore remove the corresponding folder in `dashcore`-folder:
 	
-		rm -r ~/.dashcore/devnet-<your-devnet-name>
+		$ rm -r ~/.dashcore/devnet-<your-devnet-name>
 	
-	Now you can rerun `dashd` again and start from zero.
+	Now you can rerun `dashd` and start from zero.
 
 - `evonet`: This is just a `devnet` itself. 
 	To join this net, just use the [Evonet-8 config file](core_configs/dash-evonet-8.conf).
