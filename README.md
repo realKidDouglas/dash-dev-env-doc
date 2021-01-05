@@ -20,13 +20,16 @@ Especially for macOS this is not always trivial...
 	[Managing wallets](managing_wallets.md).
 	Also stated how to create and import HD-wallets into macOS desktop client.
 
-## Docker 
+## Docker Devnet
 - [Run `devnet` node with Docker](run_devnet_docker_node.md) and setup your own Devnet locally and/or with friends and colleagues worldwide. 
 	- Connecting to it is "trivial" whereas mentioned above ([Dash Nets](net_configs.md)).
 	
 ## Coming steps: 
 
 (Almost done; I'm on it at this moment ;) )
+
+Now - we learned everything about Dash, Devnets and Docker - lets have a look at *mn-bootstrap*.
+This is a tool that guides you through the setting up of *masternodes* in the Dash-network with Docker;)
 
 - Walkthrough: Run a `testnet`-masternode with *mn-bootstrap* and/or Docker.
 	- Now "upgrade" to `evonet` (no longer needed since `evonet` is on `testnet` ;) )
