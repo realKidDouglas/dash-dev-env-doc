@@ -28,8 +28,8 @@ Especially for macOS this is not always trivial...
 
 (Almost done; I'm on it at this moment ;) )
 
-Now - we learned everything about Dash, Devnets and Docker - lets have a look at *mn-bootstrap*.
-This is a tool that guides you through the setting up of *masternodes* in the Dash-network with Docker;)
+Now - we learned everything about Dash, nets, esp. Devnets and Docker - lets have a look at *[mn-bootstrap](https://github.com/dashevo/mn-bootstrap/)*.
+This is a tool that guides you through setting up *masternodes* in the Dash-network with Docker;)
 
 - Walkthrough: Run a `testnet`-masternode with *mn-bootstrap* and/or Docker.
 	- Now "upgrade" to `evonet` (no longer needed since `evonet` is on `testnet` ;) )
