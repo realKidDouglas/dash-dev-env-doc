@@ -14,16 +14,16 @@ Commit with your team/colleagues/friends/yourself on a:
 (As you hopefully done already by reading [Dash Nets](net_configs.md) ;).
 
 ## Docker-compose File
-Now changing the docker-compose file in [docker/devnet/docker.compose.yml](docker/devnet/docker.compose.yml).
+Now changing the docker-compose file in [docker/devnet/docker.compose.yml](./docker/devnet/docker.compose.yml).
 You’ll need to set your p2p port *twice* in line 8 *and* in line 14. 
 First one opens the ports to the container, second one tells `dashd` to use this port.
 
 Docker-compose also generates the volume `core_data`(according to *[mn-bootstrap](https://github.com/dashevo/mn-bootstrap/)*) which holds the blockchain data. 
 This way you can flush and restart the container without reindexing.  
-(If you need this one day, search for ID of the image with `docker image list` and remove with `docker image rm <id>`.)
+(If you need to flush one day, search for ID of the image with `docker image list` and remove with `docker image rm <id>`.)
 
 ## `dash.conf` File
-Docker-compose tells the container in line 11 to copy file [docker/devnet/files/dash.conf](docker/devnet/files/dash.conf) into config-directory.
+Docker-compose tells the container in line 11 to copy file [docker/devnet/files/dash.conf](./docker/devnet/files/dash.conf) into config-directory.
 In there you need to change:
 - Line 1 with your pre-committed `devnet`-name,
 - Line 13 with your p2p port,
