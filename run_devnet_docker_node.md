@@ -14,7 +14,7 @@ Commit with your team/colleagues/friends/yourself on a:
 (As you hopefully done already by reading [Dash Nets](net_configs.md) ;).
 
 ## Docker-compose File
-Now changing the docker-compose file in [docker/devnet/docker.compose.yml](./docker/devnet/docker.compose.yml).
+Now changing the docker-compose file in [docker/devnet/docker.compose.yml](./docker/devnet/docker-compose.yml).
 You’ll need to set your p2p port *twice* in line 8 *and* in line 14. 
 First one opens the ports to the container, second one tells `dashd` to use this port.
 
