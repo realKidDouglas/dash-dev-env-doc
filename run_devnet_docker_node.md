@@ -19,8 +19,8 @@ You’ll need to set your p2p port *twice* in line 8 *and* in line 14.
 First one opens the ports to the container, second one tells `dashd` to use this port.
 
 Docker-compose also generates the volume `core_data`(according to *[mn-bootstrap](https://github.com/dashevo/mn-bootstrap/)*) which holds the blockchain data. 
-This way you can flush and restart the container without reindexing.  
-(If you need to flush one day, search for ID of the image with `docker image list` and remove with `docker image rm <id>`.)
+This way you can flush and restart the container without reindexing the blockchain.  
+(If you need to flush your volume one day, search for it with `docker volume list` and remove with `docker volume rm <name>`.)
 
 ## `dash.conf` File
 Docker-compose tells the container in line 11 to copy file [docker/devnet/files/dash.conf](./docker/devnet/files/dash.conf) into config-directory.
