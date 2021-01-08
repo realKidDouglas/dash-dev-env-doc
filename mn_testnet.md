@@ -3,9 +3,9 @@
 Overview
   * [Starting at zero](#starting-at-zero)
     + [Set default `ssh` port](#set-default--ssh--port)
-  * [Straightforward with mn-boostrap](#straightforward-with-mn-boostrap)
+  * [Straightforward with `mn-boostrap`](#straightforward-with-mn-boostrap)
     + [From scratch](#from-scratch)
-    + [Config](#config)
+    + [Config `mn-bootstrap`](#config)
       - [Find your current IP](#find-your-current-ip)
     + [Register masternode](#register-masternode)
   * [Troubleshoot](#troubleshoot)
