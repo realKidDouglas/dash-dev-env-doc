@@ -21,8 +21,9 @@ Especially for macOS this is not always trivial...
 	Also stated how to create and import HD-wallets into macOS desktop client.
 
 ## Docker Devnet
-- [Run `devnet` node with Docker](run_devnet_docker_node.md) and setup your own Devnet locally and/or with friends and colleagues worldwide. 
-	- Connecting to it is "trivial" since you commit on `name` and `port` (whereas mentioned above in [Dash Nets](net_configs.md)).
+[Run `devnet` node with Docker](run_devnet_docker_node.md) and setup your own Devnet locally and/or with friends and colleagues worldwide. 
+
+Connecting to it is "trivial" since you commit on `name` and `port` (whereas mentioned above in [Dash Nets](net_configs.md)).
 	
 ## `mn-bootstrap`
 
