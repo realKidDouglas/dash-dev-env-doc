@@ -24,13 +24,10 @@ Especially for macOS this is not always trivial...
 - [Run `devnet` node with Docker](run_devnet_docker_node.md) and setup your own Devnet locally and/or with friends and colleagues worldwide. 
 	- Connecting to it is "trivial" since you commit on `name` and `port` (whereas mentioned above in [Dash Nets](net_configs.md)).
 	
-## Coming steps: 
-
-(Almost done; I'm on it at this moment ;) )
+## `mn-bootstrap`
 
 Now - we learned everything about Dash, nets, esp. Devnets and Docker - lets have a look at *[mn-bootstrap](https://github.com/dashevo/mn-bootstrap/)*.
-This is a tool that guides you through setting up *masternodes* in the Dash-network with Docker;)
+This is a tool that guides you through setting up *masternodes* in the Dash-network with Docker really easy;)
 
-- Walkthrough: Run a `testnet`-masternode with *mn-bootstrap* and/or Docker.
-	- Now "upgrade" to `evonet` (no longer needed since `evonet` is on `testnet` ;) )
+Here i stated my [walkthrough](mn_testnet.md) for running a `testnet`-masternode with *mn-bootstrap*.
 

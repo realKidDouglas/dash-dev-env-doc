@@ -3,7 +3,7 @@
 Overview
   * [Starting at zero](#starting-at-zero)
     + [Set default `ssh` port](#set-default--ssh--port)
-  * [Straight forward with mn-boostrap](#straight-forward-with-mn-boostrap)
+  * [Straightforward with mn-boostrap](#straightforward-with-mn-boostrap)
     + [From scratch](#from-scratch)
     + [Config](#config)
       - [Find your current IP](#find-your-current-ip)
@@ -46,7 +46,7 @@ Now I can start `ssh`-connection easily with:
 ssh dash_vps
 ```
 
-## Straight forward with mn-boostrap
+## Straightforward with `mn-boostrap`
 
 ### From scratch
 This is all you need to do from scratch on an Ubuntu machine.
@@ -165,10 +165,14 @@ Be sure `mn` can `rwx` in its folder:
 	chmod -R 777 <mn-bootstrap-directory>
 
 
-##Links 
+## Links 
 - Testnet-Blockexplorer:  
 	https://testnet-insight.dashevo.org/insight/
 - Testnet Faucets:  
+	https://testnet-faucet.dash.org  
+	http://test.faucet.masternode.io  
+	http://faucet.test.dash.crowdnode.io  
+	https://test.faucet.dashninja.pl  
 	
 
 
